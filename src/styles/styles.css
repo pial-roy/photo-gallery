@@ -1,0 +1,91 @@
+/* Reset styles */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Cover Slideshow */
+.cover-slideshow {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 20px;
+    background: white;
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Download Button */
+.download-button {
+    margin-top: 20px;
+}
+
+.download-button a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.download-button a:hover {
+    background-color: #0056b3;
+}
+
+/* About Me Section */
+.about {
+    padding: 30px;
+    background: #333;
+    color: white;
+}
+
+.about h2 {
+    font-size: 24px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #ddd;
+}
