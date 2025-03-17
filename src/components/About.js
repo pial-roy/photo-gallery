@@ -7,7 +7,7 @@ const About = () => {
             <h2>About Me</h2>
             <p>Hello! I'm Pial Roy, a mobile photography enthusiast x Developper capturing memories through my phone.</p>
             <div className="social-links">
-                <a href="pialroy5@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:pialroy5@gmail.com">
                     📧 Email
                 </a>
                 <a href="https://www.linkedin.com/in/pialroy/" target="_blank" rel="noopener noreferrer">
